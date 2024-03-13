@@ -1,0 +1,12 @@
+
+
+<h1>Inside App Component</h1>
+
+<input #TextField type="text">
+
+<button (click)="SendMessage(TextField.value)">Button</button>
+
+<h1>Text Input : {{Name}}</h1>
+<h1>Length of Text Input : {{Name.length}}</h1>
+
+<router-outlet></router-outlet>
